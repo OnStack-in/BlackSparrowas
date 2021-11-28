@@ -1,0 +1,114 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fef0cd;
+}
+.primary-color {
+  color: #fef0cd;
+}
+
+.bg-color {
+  background-color: #fef0cd;
+}
+
+.navbar {
+  padding: 0rem 1rem;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* crosoul */
+.corosoul-col {
+  display: inline-block;
+  margin-left: -4px;
+}
+.corosoul-col img {
+  width: 100%;
+  height: auto;
+}
+.carousel-indicators li {
+  background-color: red;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #000;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-img {
+padding: 30px;
+}
+
+.p-btn{
+  padding: 10px;
+  border-radius: 18px;
+  background-color: #E89A52;
+  color: #000;
+ 
+  margin: 10px;
+}
+.p-btn-lg{
+  width: 150px;
+  height: 50px;
+}
+.card-img2{
+  padding: 15px;
+}
+.card-img2 img{
+  width: 100%;
+  height: auto;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer a{
+  color: #000;
+}
+
+.navbar-nav a{
+  font-size: 18px;
+}
+
+
+p{
+  font-size: 18px;
+}
+
+.attendee p{
+  margin-bottom: 15px;
+   margin-top: 15px;
+  /* letter-spacing: 3px; */
+  font-weight: 600;
+}
+
+.p-color{
+  color: #F9E3AC;
+}
+
+.bg-dark{
+  background-color: #5A5751!important;
+
+}
+
+/* .talk-show .card{
+
+} */
+
+.talk-show .card:hover{
+  box-shadow: 0px 0px 10px #000;
+}
